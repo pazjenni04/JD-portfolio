@@ -12,7 +12,7 @@ p {
 
 h2 {
     color: #ECF0F1;
-    font-size: 70px;
+    font-size: 75px;
     font-family: 'Dancing Script', cursive;
     text-align: center;
 }
@@ -24,13 +24,14 @@ h1 span {
 header {
     background-color: black;
 }
-/* .black{
-    display: inline-flex;
-} */
+.black {
+    text-align: center;
+    display: block;
+}
 
 .background-pic {
     background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/06/08/44326/aesthetic-flower-12-920x518.jpg);
-    min-height: 600px;
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,14 +45,16 @@ header {
 
 .nav {
     background-color: black;
-    height: 40px;
+    height: 60px;
+    font-size: 30px;
 }
+
 
 .jumbotron {
     background-color: black;
     color: white;
+   
 }
-
 
 .lead {
     font-family: 'Montserrat', sans-serif;
@@ -70,3 +73,106 @@ header {
     justify-content: center;
 }
 
+
+/* hover effect for project tiles */
+.view {
+    width: 450px;
+    height: 350px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    /* background: #fff url(https://images.unsplash.com/photo-1503252947848-7338d3f92f31?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80) no-repeat center center */
+}
+.view .mask, .view .content {
+    width: 380px;
+    height: 253px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    position: relative;
+    color: #fff;
+    padding: 5px 15px 15px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+
+.view-second img { 	
+	transition: all 0.2s ease-in;
+}
+.view-second .mask { 
+	background-color: rgba(125, 115, 184, 0.842); 
+	width: 600px;
+    padding: 80px;
+	height: 560px;
+	opacity: 0;
+	transform: translate(265px, 145px) rotate(45deg);
+	transition: all 0.2s ease-in-out;
+}
+.view-second h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin: 20px 40px 0px 40px;
+    transform: translate(200px, -200px);
+	transition: all 0.2s ease-in-out;
+}
+.view-second p { 
+	transform: translate(-200px, 200px);
+	transition: all 0.2s ease-in-out;
+}
+.view-second a.info { 
+    transform: translate(0px, 100px);
+	transition: all 0.2s 0.1s ease-in-out;
+} 
+
+.view-second:hover .mask { 
+	opacity:1; 
+	transform: translate(-80px, -125px) rotate(45deg);
+}							  
+.view-second:hover h2 { 
+	transform: translate(0px,0px);
+	transition-delay: 0.3s; 
+}
+.view-second:hover p { 
+    transform: translate(0px,0px); 
+	transition-delay: 0.4s;
+}
+.view-second:hover a.info { 
+	transform: translate(0px,0px); 
+	transition-delay: 0.5s;
+}
