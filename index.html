@@ -14,10 +14,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
     <link rel= "stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 <body>
-    <header>
+    <header id="home">
     <!-- jumbotron -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -28,25 +29,38 @@
 
      <!-- navbar -->
      <nav class="nav">
-        <a class="nav-link active" href="./index.html">Home</a>
+        <a class="nav-link" href="index.html">Home</a>
         <a class="nav-link" href="#aboutme">About me</a>
         <a class="nav-link" href="#portfolio">Portfolio</a>
         <a class="nav-link" href="#contactinfo">Contact</a>
-        <a class="nav-link" href="#contactinfo">Resume</a>
+        <a class="nav-link" href="Resume/Resume_Jennifer Davila.pdf">Resume</a>
       </nav>
   </div>
    
-
     <div class="background-pic"></div>
 
     <section id="aboutme">
-    <div style="height:800px; width: auto; background-color: black;" class="black">
+    <div style="height:1250px; width: auto; background-color: black;" class="black2">
         <h2>About Me</h2>
         <img src="images/Thailand.jpg.PNG" alt="Me in Thailand petting an elephant." class= "personalpics">
         <img src="images/IMG_3592.jpg" alt= "Me with a group hiking with trees exposed." class="personalpics">
         <img src="images/IMG_0004.JPG" alt= "Me posing in front of a fountain." class="personalpics">
-        <p>Welcome to my portfolio.</p>
-        <p>I'm an aspiring web developer with a background in marketing and management.</p>
+        <br>
+        <p>Welcome to my portfolio!</p>
+        <p>I'm an aspiring web developer with a background in marketing and management.  My current passion includes front-end coding and creating a unique user experience.  
+            I live in Dallas, TX and am currently undergoing the SMU coding bootcamp where I intend to transition careers.  My hobbies include traveling to far-away places and becoming one with nature on my hiking adventures!</p>
+        <br>
+        <br>
+        <div class="section-wrapper clearfix">
+            <h3 class="section-title">Skills</h3>
+              <ul>
+              <li class="skill-percentage">HTML / HTML5</li>
+              <li class="skill-percentage">CSS</li>
+              <li class="skill-percentage">Javascript</li>
+              <li class="skill-percentage">Jquery</li>  
+              </ul>
+             
+           </div>
         
     </div>
     </section>
@@ -54,46 +68,43 @@
     <div class="background-pic"></div>
 
     <section id="portfolio">
-    <div style="height:700px; width: auto; background-color: black;" class="black">
+    <div style="height:750px; width: auto; background-color: black;" class="black">
         <h2>Portfolio</h2>
-        
         <!-- first project hover block -->
         <div class="view view-second">
-            <img src="images/highscore-img.PNG" height="400px">
+            <img src="images/highscore-img.PNG" class="proj-pics">
             <div class="mask"></div>
             <div class="content">
                 <h2>Ready, set, quiz!</h2>
-                <p class="project-tile">The objective of this webpage is to quiz the user on basic coding knowledge.</p>
+                <p class="project-tile">The objective of this webpage is to quiz the user on basic coding knowledge.
+                    <a href="url">https://github.com/pazjenni04/weather-forecaster.git</a>
+                </p>
+                
                 <a href="https://pazjenni04.github.io/ready-set-quiz/" class="info">Read More</a>
             </div>
         </div>
         <!-- second project hover block -->
         <div class="view view-second">
-            <img src="images/date-night-img.PNG" height="330px">
+            <img src="images/date-night-img.PNG"  class="proj-pics">
             <div class="mask"></div>
             <div class="content">
                 <h2>Date Night In</h2>
-                <p class="project-tile">The objective of this webpage is to take the hassle out of planning a date-night-in. User can generate a recipe and movie with a click of a button!</p>
+                <p class="project-tile">The objective of this webpage is to take the hassle out of planning a date-night-in. User can generate a recipe and movie with a click of a button!
+                    <a href="url">https://github.com/pazjenni04/Date-night-in.git</a>
+                </p>
                 <a href="https://pazjenni04.github.io/Date-night-in/" class="info">Read More</a>
             </div>
         </div>
+    
         <!-- third project hover block -->
         <div class="view view-second">
-            <img src="images/Weather-img.PNG" height="300px">
-            <div class="mask"></div>
-            <div class="content">
-                <h2>Weather Forecaster</h2>
-                <p class="project-tile">Need to check the weather? This webpage allows the user to see the weather forecast in any zipcode entered.</p>
-                <a href="https://pazjenni04.github.io/weather-forecaster/" class="info">Read More</a>
-            </div>
-        </div>
-        <!-- fourth project hover block -->
-        <div class="view view-second">
-            <img src="images/password-img.PNG" height="330px">
+            <img src="images/password-img.PNG"  class="proj-pics">
             <div class="mask"></div>
             <div class="content">
                 <h2>Password Generator</h2>
-                <p class="project-tile">This webpage allows the user to generate a secure password that tailors to the users request.</p>
+                <p class="project-tile">This webpage allows the user to generate a secure password that tailors to the users request.
+                    <a href="url">https://github.com/pazjenni04/random-password-generator.git</a>
+                </p>
                 <a href="https://pazjenni04.github.io/random-password-generator/" class="info">Read More</a>
             </div>
         </div>
@@ -103,13 +114,33 @@
     <div class="background-pic"></div>
 
     <section id="contactinfo">
-        <div style="height:800px; width: auto; background-color: black;" class="black">
+        <div style="height:600px; width: auto; background-color: black;" class="black">
             <h2>Contact</h2>
-                <span class="email"><a href= "mailto: pazjenni1331@gmail.com">Email: email me</a></span>
-                <span class="git-hub"><a href="https://github.com/pazjenni04">Github: Jennifer Davila</a></span>
-                <span class="linkedIn"><a href="https://www.linkedin.com/in/jennifer-davila-451541189/">LinkedIn: Jennifer Davila</a></span>
+            <p>Have a question or interested in working together?</p>
+            <div class= "input-container">
+                <form class="input-class">
+                    <div class="form-group">
+                        <label for="name"></label>
+                        <input type="name" class="form-control" id="prospect-name" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1"></label>
+                        <textarea class="form-control" id="Textarea1" rows="3" placeholder="Your message"></textarea>
+                      </div>
+                </form>
+            </div>
+                <span class="email"><a href= "mailto: pazjenni1331@gmail.com"><i class="fa fa-envelope" style="font-size:48px"></i></a></span>
+                <span class="git-hub"><a href="https://github.com/pazjenni04"><i class="fa fa-github" style="font-size:48px; color: white"></i></a></span>
+                <span class="linkedIn"><a href="https://www.linkedin.com/in/jennifer-davila-451541189/"><i class="fa fa-linkedin-square" style="font-size:48px;color:#00008B"></i></a></span>
         </div>
+        <a href="#home"><i class="fa fa-arrow-circle-up" style="font-size: 48px; color: white;"></i> </a>
     </section>
+
+    <div id="last" class="background-pic"></div>
 
 
 </body>
