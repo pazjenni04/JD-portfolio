@@ -33,6 +33,6 @@ Throughout each section of the webpage, small, white arrows were implemented to 
 
 NOTE: This webpage was created to be responsive to the users viewport, so media queries were implemented to make sure that elements react to the screen size.
 
-Webpage link: 
+Webpage link: https://pazjenni04.github.io/JD-portfolio/
 
 Contact info: pazjenni1331@gmail.com
