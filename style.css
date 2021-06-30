@@ -130,7 +130,7 @@ body {
 
 .view .mask, .view .content {
     width: 410px;
-    height: 300px;
+    height: 370px;
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -149,7 +149,7 @@ body {
     color: #fff;
     text-align: center;
     position: relative;
-    font-size: 19px;
+    font-size: 18px;
     padding: 5px;
     background: rgba(0, 0, 0, 0.8);
     margin: 20px 0 0 0;
@@ -159,10 +159,10 @@ body {
 .view p {
     font-family: Georgia, serif;
     font-style: italic;
-    font-size: 15px;
+    font-size: 17px;
     position: relative;
     color: #fff;
-    padding: 27px;
+    padding: 27px 10px 10px 25px;
     text-align: center;
     justify-content: center;
     display: block;
@@ -512,5 +512,6 @@ body {
         font-size: 10px;
         width: 75%;
     }
+    
 
 }
