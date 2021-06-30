@@ -130,7 +130,7 @@ body {
 
 .view .mask, .view .content {
     width: 410px;
-    height: 370px;
+    height: 450px;
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -162,7 +162,7 @@ body {
     font-size: 17px;
     position: relative;
     color: #fff;
-    padding: 27px 10px 10px 25px;
+    padding: 40px;
     text-align: center;
     justify-content: center;
     display: block;
