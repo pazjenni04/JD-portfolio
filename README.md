@@ -1,6 +1,8 @@
 # JD-portfolio
 This webpage is vital in showcasing not only my current projects, but also my background as an upcoming web developer. As an individual navigates through the webpage, they'll be able to first-hand see my progress as a developer.
 
+List of technologies used: HTML and CSS
+
 When the user first logs into the webpage, they will be presented with home viewport.
 
 ![This image shows the first viewport the user sees when first getting onto the website](https://raw.githubusercontent.com/pazjenni04/JD-portfolio/main/images/intro-page_img.PNG)
@@ -32,3 +34,5 @@ Throughout each section of the webpage, small, white arrows were implemented to 
 NOTE: This webpage was created to be responsive to the users viewport, so media queries were implemented to make sure that elements react to the screen size.
 
 Webpage link: 
+
+Contact info: pazjenni1331@gmail.com
