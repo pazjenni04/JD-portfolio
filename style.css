@@ -1,517 +1,499 @@
 p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    color: white;
-    position: relative;
-    display: block;
-    text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: white;
+  position: relative;
+  display: block;
+  text-align: center;
 }
 
 h2 {
-    color: #ECF0F1;
-    font-size: 75px;
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
-    display: block;
+  color: #ecf0f1;
+  font-size: 75px;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  display: block;
 }
-
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
-
 .input-class {
-    width: 40%;
-    justify-content: center;
+  width: 40%;
+  justify-content: center;
 }
 
 .intro {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
 }
 
 .background-pic {
-    background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/06/08/44326/aesthetic-flower-12-920x518.jpg);
-    min-height: 450px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    margin:0;
-    border:0;
+  background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/06/08/44326/aesthetic-flower-12-920x518.jpg);
+  min-height: 450px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 .nav {
-    background-color: black;
-    height: 60px;
-    font-size: 30px;
-    justify-content: center;
+  background-color: black;
+  height: 60px;
+  font-size: 30px;
+  justify-content: center;
 }
-
 
 .jumbotron {
-    background-color: black;
-    color: white;
-    min-height: 150px !important;
+  background-color: black;
+  color: white;
+  min-height: 150px !important;
 }
 
-
 .lead {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
 }
 
 .container {
-    background-color: black;
+  background-color: black;
 }
 
 .personalpics {
-    position: relative;
-    display: inline-block;
-    height: 400px;
-    width: auto;
-    justify-content: center;
-    margin: 30px 10px 40px 80px;
+  position: relative;
+  display: inline-block;
+  height: 400px;
+  width: auto;
+  justify-content: center;
+  margin: 30px 10px 40px 80px;
 }
 
 .black2 {
-    justify-content: center;
-    display: block;
-    text-align: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
 }
 
 .form-group {
-    display: block;
-    justify-content: center;
+  display: block;
+  justify-content: center;
 }
 
 .input-class {
-    display: block;
-    justify-content: center;
+  display: block;
+  justify-content: center;
 }
 
 .input-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .black {
-    text-align: center;
+  text-align: center;
 }
 
 #last {
-    min-height: 100px !important;  
+  min-height: 100px !important;
 }
 
 #portfolio {
-    display: block;
+  display: block;
 }
 
 /* hover effect for project tiles */
 
 .view {
-    width: 475px;
-    height: 410px;
-    margin: 20px;
-    float: left;
-    border: 8px solid #fff;
-    overflow: hidden;
-    position: relative;
-    justify-content: center;
-    box-shadow: 1px 1px 2px #e6e6e6;
-    cursor: default;
-    display: flex;
-    
+  width: 475px;
+  height: 410px;
+  margin: 20px;
+  float: left;
+  border: 8px solid #fff;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  box-shadow: 1px 1px 2px #e6e6e6;
+  cursor: default;
+  display: flex;
 }
 
-.view .mask, .view .content {
-    width: 410px;
-    height: 370px;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    text-align: center;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-    
+.view .mask,
+.view .content {
+  width: 410px;
+  height: 370px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  text-align: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
 }
 .view img {
-    display: block;
-    position: relative
+  display: block;
+  position: relative;
 }
 .view h2 {
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    font-size: 18px;
-    padding: 5px;
-    background: rgba(0, 0, 0, 0.8);
-    margin: 20px 0 0 0;
-    font-family: 'Montserrat', sans-serif;
-    display: block;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 18px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 20px 0 0 0;
+  font-family: "Montserrat", sans-serif;
+  display: block;
 }
 .view p {
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 17px;
-    position: relative;
-    color: #fff;
-    padding: 27px 10px 10px 25px;
-    text-align: center;
-    justify-content: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    word-wrap: break-word;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 17px;
+  position: relative;
+  color: #fff;
+  padding: 27px 10px 10px 25px;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: break-word;
 }
 .view a.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px 10px;
-    background: #000;
-    color: #fff;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px #000
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 10px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000;
 }
 .view a.info:hover {
-    box-shadow: 0 0 5px #000
+  box-shadow: 0 0 5px #000;
 }
 
-.view-second img { 	
-	transition: all 0.2s ease-in;
+.view-second img {
+  transition: all 0.2s ease-in;
 }
-.view-second .mask { 
-	background-color: rgba(37, 33, 63, 0.842); 
-	width: 1550px;
-    padding: 50px;
-	height: 1000px;
-	opacity: 0;
-	transform: translate(300px, 180px) rotate(45deg);
-	transition: all 0.2s ease-in-out;
+.view-second .mask {
+  background-color: rgba(37, 33, 63, 0.842);
+  width: 1550px;
+  padding: 50px;
+  height: 1000px;
+  opacity: 0;
+  transform: translate(300px, 180px) rotate(45deg);
+  transition: all 0.2s ease-in-out;
 }
 .view-second h2 {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    background: transparent;
-    margin: 20px 40px 0px 40px;
-    transform: translate(200px, -200px);
-	transition: all 0.2s ease-in-out;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  background: transparent;
+  margin: 20px 40px 0px 40px;
+  transform: translate(200px, -200px);
+  transition: all 0.2s ease-in-out;
 }
-.view-second p { 
-	transform: translate(-200px, 200px);
-	transition: all 0.2s ease-in-out;
-    /* left: 5px; */
+.view-second p {
+  transform: translate(-200px, 200px);
+  transition: all 0.2s ease-in-out;
+  /* left: 5px; */
 }
-.view-second a.info { 
-    transform: translate(0px, 100px);
-	transition: all 0.2s 0.1s ease-in-out;
-} 
+.view-second a.info {
+  transform: translate(0px, 100px);
+  transition: all 0.2s 0.1s ease-in-out;
+}
 
-.view-second:hover .mask { 
-	opacity:1; 
-	transform: translate(-80px, -125px) rotate(45deg);
-}							  
-.view-second:hover h2 { 
-	transform: translate(0px,0px);
-	transition-delay: 0.3s; 
+.view-second:hover .mask {
+  opacity: 1;
+  transform: translate(-80px, -125px) rotate(45deg);
 }
-.view-second:hover p { 
-    transform: translate(0px,0px); 
-	transition-delay: 0.4s;
+.view-second:hover h2 {
+  transform: translate(0px, 0px);
+  transition-delay: 0.3s;
 }
-.view-second:hover a.info { 
-	transform: translate(0px,0px); 
-	transition-delay: 0.5s;
+.view-second:hover p {
+  transform: translate(0px, 0px);
+  transition-delay: 0.4s;
+}
+.view-second:hover a.info {
+  transform: translate(0px, 0px);
+  transition-delay: 0.5s;
 }
 
 /* skills percentages */
 .section-wrapper {
-    width: 95%;
-    float: left;
-    text-align: left;
-    color: #9099a0;
-    font-weight: 700px;
-    margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
-    justify-content: center;
-    position: relative;
-  }
-
-  @media (max-width: 450px) {
-    .section-wrapper {
-      width: 100%;
-    }
-  }
-
-  .section-wrapper:nth-child(3) {
-    padding-right: 8%;
-  }
-
-  .section-wrapper h3.section-title {
-    color:white;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 50px;
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
-    
-  }
-  .section-wrapper .skill-percentage {
-    margin-bottom: 10px;
-    position: relative;
-    justify-content: center;
-    list-style-type: none;
-    font-size: 20px;
-    color: white;
-  }
-  .section-wrapper .skill-percentage::after {
-    content: "";
-    width: 100%;
-    height: 15px;
-    background: #4a4e51;
-    display: block;
-    margin-top: 3px;
-  }
-  .section-wrapper .skill-percentage::before {
-    content: "";
-    height: 15px;
-    background: rgba(125, 115, 184, 0.842);
-    position: absolute;
-    margin-top: 3px;
-    bottom: 0;
-  }
-
-  /* triggers for html percentage to fill up */
-  .section-wrapper .skill-percentage:nth-child(1)::before {
-    width: 90%;
-    -webkit-animation: skill_1 0.6s ease;
-            animation: skill_1 0.6s ease;
-  }
-
-  /* triggers for CSS percentage to fill up */
-  .section-wrapper .skill-percentage:nth-child(2)::before {
-    width: 90%;
-    -webkit-animation: skill_2 0.6s ease;
-            animation: skill_2 0.6s ease;
-  }
-
-  /* triggers for javascript percentage to fill up */
-  .section-wrapper .skill-percentage:nth-child(3)::before {
-    width: 70%;
-    -webkit-animation: skill_3 0.6s ease;
-            animation: skill_3 0.6s ease;
-  }
-
-  /* triggers for javascript percentage to fill up */
-  .section-wrapper .skill-percentage:nth-child(4)::before {
-    width: 40%;
-    -webkit-animation: skill_4 0.6s ease;
-            animation: skill_4 0.6s ease;
-  }
-
-
-  /* animations on graphs */
-  @-webkit-keyframes skill_1 {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 80%;
-    }
-  }
-   
-  @keyframes skill_1 {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 80%;
-    }
-  }
-
-  @-webkit-keyframes skill_2 {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 90%;
-    }
-  }
-
-  @keyframes skill_2 {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 90%;
-    }
-  }
-
-  @-webkit-keyframes skill_3 {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 50%;
-    }
-  }
-
-  @keyframes skill_3 {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 50%;
-    }
-  }
-
-  @-webkit-keyframes skill_4 {
-    from {
-      width: 0%;
-    }
-    to {
-      width: 60%;
-    }
+  width: 95%;
+  float: left;
+  text-align: left;
+  color: #9099a0;
+  font-weight: 700px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference){
-    .skill-percentage{
-        animation: skill_1 1s initial;
-    }
+@media (max-width: 450px) {
+  .section-wrapper {
+    width: 100%;
+  }
+}
+
+.section-wrapper:nth-child(3) {
+  padding-right: 8%;
+}
+
+.section-wrapper h3.section-title {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+.section-wrapper .skill-percentage {
+  margin-bottom: 10px;
+  position: relative;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+}
+.section-wrapper .skill-percentage::after {
+  content: "";
+  width: 100%;
+  height: 15px;
+  background: #4a4e51;
+  display: block;
+  margin-top: 3px;
+}
+.section-wrapper .skill-percentage::before {
+  content: "";
+  height: 15px;
+  background: rgba(125, 115, 184, 0.842);
+  position: absolute;
+  margin-top: 3px;
+  bottom: 0;
+}
+
+/* triggers for html percentage to fill up */
+.section-wrapper .skill-percentage:nth-child(1)::before {
+  width: 90%;
+  -webkit-animation: skill_1 0.6s ease;
+  animation: skill_1 0.6s ease;
+}
+
+/* triggers for CSS percentage to fill up */
+.section-wrapper .skill-percentage:nth-child(2)::before {
+  width: 90%;
+  -webkit-animation: skill_2 0.6s ease;
+  animation: skill_2 0.6s ease;
+}
+
+/* triggers for javascript percentage to fill up */
+.section-wrapper .skill-percentage:nth-child(3)::before {
+  width: 70%;
+  -webkit-animation: skill_3 0.6s ease;
+  animation: skill_3 0.6s ease;
+}
+
+/* triggers for javascript percentage to fill up */
+.section-wrapper .skill-percentage:nth-child(4)::before {
+  width: 40%;
+  -webkit-animation: skill_4 0.6s ease;
+  animation: skill_4 0.6s ease;
+}
+
+/* animations on graphs */
+@-webkit-keyframes skill_1 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes skill_1 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@-webkit-keyframes skill_2 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes skill_2 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes skill_3 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes skill_3 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@-webkit-keyframes skill_4 {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 60%;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .skill-percentage {
+    animation: skill_1 1s initial;
+  }
 }
 
 @media only screen and (max-width: 1950px) {
-.view {
+  .view {
     height: 40%;
     width: auto;
     display: inline;
-}
+  }
 
-.proj-pics {
+  .proj-pics {
     height: 100%;
+  }
 }
-}
-    
-
 
 @media only screen and (max-width: 1885px) {
-    .personalpics {
-        height: 250px;
-    }
+  .personalpics {
+    height: 250px;
+  }
 
-    p {
-        font-size: 20px;
-        text-align: center;
-    }
+  p {
+    font-size: 20px;
+    text-align: center;
+  }
 
-    h2 h3 {
-        font-size: 50px;
-    }
+  h2 h3 {
+    font-size: 50px;
+  }
 
-    .section-wrapper h3.section-title {
-        font-size: 40px;
-    }
+  .section-wrapper h3.section-title {
+    font-size: 40px;
+  }
 
-    .section-wrapper .skill-percentage {
-        font-size: 30px;
-    }
-
+  .section-wrapper .skill-percentage {
+    font-size: 30px;
+  }
 }
 
 @media only screen and (max-width: 1195px) {
-    .view {
-        height: 30%;
-        width: auto;
-        display: inline;
-    }
-     
+  .view {
+    height: 30%;
+    width: auto;
+    display: inline;
+  }
 }
 
 @media only screen and (max-width: 999px) {
-    .view {
-        height: 25%;
-        width: auto;
-        display: inline;
-    }
-      
+  .view {
+    height: 25%;
+    width: auto;
+    display: inline;
+  }
 }
 
 @media only screen and (max-width: 700px) {
-    .personalpics {
-        height: 175px;
-    }
+  .personalpics {
+    height: 175px;
+  }
 
-    .intro {
-        font-size: 70px;
-    }
+  .intro {
+    font-size: 70px;
+  }
 
-    .nav {
-        font-size: 20px;
-    }
+  .nav {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
-    .personalpics {
-        height: 100px;
-        display: inline-flexbox;
-        justify-content: center;
-        position: relative;
-    }
+  .personalpics {
+    height: 100px;
+    display: inline-flexbox;
+    justify-content: center;
+    position: relative;
+  }
 
-    .intro {
-        font-size: 30px;
-    }
-    
-    .lead {
-        font-size: 20px;
-    }
+  .intro {
+    font-size: 30px;
+  }
 
-    .nav {
-        font-size: 10px;
-    }
+  .lead {
+    font-size: 20px;
+  }
 
+  .nav {
+    font-size: 10px;
+  }
 
-    h2 {
-        font-size: 30px;
-    }
+  h2 {
+    font-size: 30px;
+  }
 
-    .background-pic {
-        min-height: 200px;
-       
-    }
+  .background-pic {
+    min-height: 200px;
+  }
 
+  p {
+    font-size: 10px;
+    text-align: center;
+  }
 
-    p {
-        font-size: 10px;
-        text-align: center;
-    }
+  .black2 {
+    height: 600px !important;
+  }
 
-    .black2 {
-        height: 600px !important;
-    }
+  .view {
+    height: 15%;
+    width: auto;
+    display: inline;
+  }
 
-    .view {
-        height: 15%;
-        width: auto;
-        display: inline;
-    }
-    
-    
-    .section-wrapper h3.section-title {
-        font-size: 12px;
-    }
+  .section-wrapper h3.section-title {
+    font-size: 12px;
+  }
 
-    .section-wrapper .skill-percentage {
-        font-size: 10px;
-        width: 75%;
-    }
-    
-
+  .section-wrapper .skill-percentage {
+    font-size: 10px;
+    width: 75%;
+  }
 }
